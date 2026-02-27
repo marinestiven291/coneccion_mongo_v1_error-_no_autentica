@@ -1,0 +1,42 @@
+node_modules y package.json son las bases y dependencias antes de inicar a trabajar ademas hay que instalar muchas dependencias que luego
+documentare.
+
+dentro de src van los archivos de codigo que se iran creando para crear la aplicacion
+
+index.js es el archivo que permite ejecutar tambien llamado archivo principal
+
+server.js contiene el codigo del servidor el codigo de "express"
+
+database.js debe contener la conexion con la base de datos 
+
+explicacionde las carpetas dentro de src
+{
+
+    config      [configura algunos modulos]
+    controllers [funciones que se usan cuando un usuario visita el servidor]
+    helpers     [se guardan algunas funciones utiles]
+    models      [almacenar los modelos de datos es decir esquemas]  
+    public      [archivos publiscos css fuentes e imagenes]
+    routes      [para guardar rutas y urls]
+    views       [archivos handelbash o html]
+}
+
+
+despues de crear las carpetas para hacer funcionar el servidor
+{
+    usando express en la carpeta server  se crea el servidor pero luego se debe exportar para ser ejecutado 
+    en la carpeta index donde debe ser importado y ejecutado
+
+    ./ --> dice que el archivo esta dentro del proyecto
+
+}
+
+antializators[]
+
+settings[]
+
+middlewares[]
+
+routes[]
+
+global varables[]
